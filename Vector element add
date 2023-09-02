@@ -1,0 +1,21 @@
+#include <iostream>
+#include <vector>
+
+int main() {
+    // Create an empty vector
+    std::vector<int> myVector;
+
+    // Add elements to the vector using push_back
+    myVector.push_back(10);
+    myVector.push_back(20);
+    myVector.push_back(30);
+
+    // Print the elements of the vector
+    std::cout << "Vector elements: ";
+    for (int num : myVector) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
