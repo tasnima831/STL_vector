@@ -1,0 +1,15 @@
+#include <iostream>
+#include <vector>
+
+int main() {
+    // Create a vector
+    std::vector<int> myVector = {1, 2, 3, 4, 5};
+
+    // Check the length of the vector
+    size_t length = myVector.size();
+
+    // Print the length
+    std::cout << "The length of the vector is: " << length << std::endl;
+
+    return 0;
+}
