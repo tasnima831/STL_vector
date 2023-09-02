@@ -1,0 +1,43 @@
+#include <iostream>
+#include <vector>
+
+int main() {
+    // Initialize an empty vector
+    std::vector<int> emptyVector;
+
+    // Initialize a vector with values
+    std::vector<int> valuesVector = {1, 2, 3, 4, 5};
+
+    // Initialize a vector with a specific size
+    std::vector<int> sizedVector(5);
+
+    // Initialize a vector with a size and default value
+    std::vector<int> sizedAndValuedVector(3, 42);
+
+    // Print the elements of each vector
+    std::cout << "emptyVector: ";
+    for (int num : emptyVector) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    std::cout << "valuesVector: ";
+    for (int num : valuesVector) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    std::cout << "sizedVector: ";
+    for (int num : sizedVector) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    std::cout << "sizedAndValuedVector: ";
+    for (int num : sizedAndValuedVector) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
